@@ -30,6 +30,9 @@ DEMO_PROMPT="${GREEN}➜ TBS ${CYAN}\W "
 pe "kubectl config use-context tanzu-gitlab-build-service-admin@tanzu-gitlab-build-service"
 echo
 
+pe "kp image delete aspnet-core"
+echo
+
 pe "kp image list"
 echo
 
