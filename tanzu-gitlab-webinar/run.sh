@@ -33,14 +33,11 @@ echo
 pe "kp image list"
 echo
 
-pe "kp image list | grep latest"
-echo
-
 pe "clear"
 
 
 #CREATE IMAGES NOW - DURING EXECUTION EXPLAIN COMMAND PARAMS, LIST ALL TARGET CLUSTERS, CHECK STATUS or CHECK BUILD LOGS
-pe "kp image create aspnet-core --tag tanzuregistry.azurecr.io/aspnet-core --git https://github.com/nycpivot/dotnet-docker.git"
+pe "kp image create aspnet-core --tag registry.gitlab.com/gitlab-com/alliances/vmware/sandbox/vmworld-2020-demo/spring-music/aspnet-core --git https://github.com/nycpivot/dotnet-docker.git"
 echo
 
 pe "clear"
