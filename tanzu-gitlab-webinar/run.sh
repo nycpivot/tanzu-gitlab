@@ -40,7 +40,7 @@ pe "clear"
 
 
 #CREATE IMAGES NOW - DURING EXECUTION EXPLAIN COMMAND PARAMS, LIST ALL TARGET CLUSTERS, CHECK STATUS or CHECK BUILD LOGS
-pe "kp image create aspnet-core --tag registry.gitlab.com/gitlab-com/alliances/vmware/sandbox/vmworld-2020-demo/spring-music/aspnet-core --git https://github.com/nycpivot/dotnet-docker.git"
+pe "kp image create aspnet-core --tag registry.gitlab.com/gitlab-com/alliances/vmware/sandbox/vmworld-2020-demo/spring-music/aspnet-core --git https://gitlab.com/nycpivot/gitlab-dotnet-core.git" --sub-path src/GitLab.Dotnet.Core.Web
 echo
 
 pe "clear"
